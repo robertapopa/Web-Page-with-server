@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Musatini</strada>
+            <numar>5</numar>
+            <localitate>iasi</localitate>
+            <judet>iasi</judet>
+            <tara>romania</romania>
+    </persoana>
+    <persoana id="2">
+        <nume>Popa</nume>
+        <prenume>Maria</prenume>
+        <varsta>19</varsta>
+        <adresa>
+            <strada>Basarabi</strada>
+            <numar>7</numar>
+            <localitate>iasi</localitate>
+            <judet>iasi</judet>
+            <tara>romania</romania>
+    </persoana>
+    <persoana id="3">
+        <nume>Filip</nume>
+        <prenume>Andrei</prenume>
+        <varsta>20</varsta>
+        <adresa>
+            <strada>Pacurari</strada>
+            <numar>12</numar>
+            <localitate>iasi</localitate>
+            <judet>iasi</judet>
+            <tara>Romania</romania>
+    </persoana>
+    <persoana id="4">
+        <nume>Dumitrescu</nume>
+        <prenume>Bogdan</prenume>
+        <varsta>25</varsta>
+        <adresa>
+            <strada>Bucium</strada>
+            <numar>10</numar>
+            <localitate>iasi</localitate>
+            <judet>iasi</judet>
+            <tara>Romania</romania>
+    </persoana>
+</persoane>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+        <main>
+            <aside>
+                <a href="#s1">Secțiunea 1</a>
+                <a href="#s2">Secțiunea 2</a>
+
+            </aside>
+        <section id="s1">
+            <h2>Secțiunea 1</h2>
+            <h3>Data și ora:</h3>
+            <p id="dataMea"></p>
+            <h3>Adresă URL:</h3>
+            <p id="urlPag"></p>
+            <h3>Locație:</h3>
+            <p id="loc"></p>
+            <h3>Versiune browser:</h3>
+            <p id="browser"></p>
+        </section>
+        <section id="s2">
+            <h2>Secțiunea 2 - Desen </h2>
+            <form onsubmit="return false">
+                <label for="Culoare-contur">Culoare contur</label><br>
+                <input type="color" name="Culoare-contur" id="Culoare-contur"><br>
+                <label for="Culoare-desen">Culoare desen</label><br>
+                <input type="color" name="Culoare-desen" id="Culoare-desen"><br>
+            </form>
+            <canvas style="border:1px solid black;" id="myCanvas" width="500" height="300" onclick="draw(event)"></canvas>
+         </section>
+    </main>

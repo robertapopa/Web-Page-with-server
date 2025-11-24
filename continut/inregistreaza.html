@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+        <main class="aspect">
+            <form onsubmit="return false">
+                <filedset>
+                    <legend><b>Completează:</b></legend>
+                    <label for="fname">Nume utilizator:</label>
+                    <input type="text" id="fname"><br><br>
+                    <label for="parola">Parolă:</label>
+                    <input type="password" id="parola"><br><br>
+                    <label for="nume">Nume:</label>
+                    <input type="text" id="nume"><br><br>
+                    <label for="prenume">Prenume:</label>
+                    <input type="text" id="prenume"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="telefon">Telefon</label>
+                    <input type="tel" id="telefon" name="telefon"><br><br>
+                    <label for="sexul">Sex:</label><br>
+                    <select id="sexul">
+                        <option value="feminin">F</option>
+                        <option value="masculin">M</option>
+                    </select><br><br>
+                    <label for="floare">Floare preferată:</label>
+                    <input list="flori" id="floare">
+                    <datalist id="flori">
+                        <option value ="Trandafir">
+                        <option value="Orhidee">
+                        <option value="Lalea">
+                        <option value="Crin">
+                    </datalist>
+                </filedset><br><br>
+                <label for="culoare">Culoare preferată:</label>
+                <input type="color" id="culoare" name="culoare" ><br><br>
+                <label for="dataNasterii">Data Nașterii:</label>
+                <input type="date" id="dataNasterii" name="dataNasterii"><br><br>
+                <label for="ora">Ora nașterii:</label>
+                <input type="time" id="ora" name="ora"><br><br>
+                <label for="varsta">Varstă:</label>
+                <input type="range" id="varsta" name="varsta" min="0" max="100"><br><br>
+                <label for="pag">Pagină personală:</label>
+                <input type="url" id="pag" name="pag"><br><br>
+                <label for="descriere">Descriere:</label>
+                <textarea id="descriere" name="descriere" rows="4" cols="50">
+                 </textarea>
+                <br><br>
+                <input type="submit" value="Inregistreaza">
+            </form>
+        </main>
